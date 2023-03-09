@@ -20,7 +20,7 @@
 
 2.运行CUDA_VISIBLE_DEVICES=7 python tools/test.py configs/swin/mask_rcnn_swin-t-p4-w7_fpn_1x_coco.py work_dirs/swin/epoch_24.pth  --eval bbox时遇到的问题：
 
-![image](https://github.com/wangxiaofei2022/Mmdetection/blob/main/IndexError_list_index_out_of_range.png)
+![image](https://github.com/wangxiaofei2022/Bug/blob/main/IndexError_list_index_out_of_range.png)
 
 解决办法：
 
