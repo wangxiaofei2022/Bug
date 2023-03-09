@@ -6,17 +6,15 @@
 
 解决办法：
 
+https://zhenkai.blog.csdn.net/article/details/89602237?spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-6-89602237-blog-85080630.pc_relevant_landingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-6-89602237-blog-85080630.pc_relevant_landingrelevant&utm_relevant_index=7
+
 （1）先安装“shapely”依赖（用conda命令，直接用pip可能安装不上Shapely）
 
         conda install Shapely
 
-
 （2）再运行以下安装imgaug的命令
 
         pip install imgaug
-
-
-
 
 2.运行CUDA_VISIBLE_DEVICES=7 python tools/test.py configs/swin/mask_rcnn_swin-t-p4-w7_fpn_1x_coco.py work_dirs/swin/epoch_24.pth  --eval bbox时遇到的问题：
 
