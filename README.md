@@ -1,6 +1,20 @@
 # 运行过程中遇到的Bug
 
-1.
+1.安装imgaug库时，直接用pip install imgaug报错 Failed to build Shapely
+
+![image](https://github.com/wangxiaofei2022/Bug/blob/main/Failed_to_build_Shapely.png)
+
+解决办法：
+
+（1）先安装“shapely”依赖（用conda命令，直接用pip可能安装不上Shapely）
+
+        conda install Shapely
+
+
+（2）再运行以下安装imgaug的命令
+
+        pip install imgaug
+
 
 
 
