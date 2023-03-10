@@ -1,6 +1,6 @@
 # 运行过程中遇到的Bug
 
-1.安装imgaug库时，直接用pip install imgaug报错 Failed to build Shapely
+1.安装imgaug库时，直接用pip install imgaug报错 Failed to build Shapely（144.142服务器torch_1.8.0环境下noise目录）
 
 ![image](https://github.com/wangxiaofei2022/Bug/blob/main/Failed_to_build_Shapely.png)
 
@@ -16,7 +16,7 @@ https://zhenkai.blog.csdn.net/article/details/89602237?spm=1001.2101.3001.6650.6
 
         pip install imgaug
 
-2.运行CUDA_VISIBLE_DEVICES=7 python tools/test.py configs/swin/mask_rcnn_swin-t-p4-w7_fpn_1x_coco.py work_dirs/swin/epoch_24.pth  --eval bbox时遇到的问题：
+2.运行CUDA_VISIBLE_DEVICES=7 python tools/test.py configs/swin/mask_rcnn_swin-t-p4-w7_fpn_1x_coco.py work_dirs/swin/epoch_24.pth  --eval bbox时遇到的问题：（144.142服务器py3.6环境下mmdetection1目录）
 
 ![image](https://github.com/wangxiaofei2022/Bug/blob/main/IndexError_list_index_out_of_range.png)
 
